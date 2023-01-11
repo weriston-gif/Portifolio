@@ -18,6 +18,7 @@ export default function Home() {
             <Link href="projects">
               <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
             </Link>
+
           </Infos>
           <Logo>
             <Img className='image-container' src="https://avatars.githubusercontent.com/u/64429216?v=4" alt="logo" />
@@ -25,6 +26,9 @@ export default function Home() {
         </Content>
       </Container>
       <Softskill />
+      <Link  href="contact">
+        <LinkProjects>CONTATOS <FaArrowRight /></LinkProjects>
+      </Link>
     </>
   )
 }
