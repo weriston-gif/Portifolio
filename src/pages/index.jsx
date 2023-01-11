@@ -1,4 +1,4 @@
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight, FaArrowUp } from 'react-icons/fa'
 import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../styles/indexStyle'
 import Link from 'next/link'
 import Softskill from '../../components/Softskill'
@@ -27,7 +27,7 @@ export default function Home() {
       </Container>
       <Softskill />
       <Link  href="contact">
-        <LinkProjects>CONTATOS <FaArrowRight /></LinkProjects>
+        <LinkProjects>CONTATOS <FaArrowUp /></LinkProjects>
       </Link>
     </>
   )

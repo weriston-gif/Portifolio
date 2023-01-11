@@ -17,8 +17,8 @@ export default function Softskill() {
     }
 
     const fillerStyles = {
-        height: '90%',
-        width: '100%',
+        height: '100%',
+        width: '90%',
         backgroundColor: "#13E4F9",
         borderRadius: 'inherit',
         textAlign: 'right'
