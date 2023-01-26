@@ -93,8 +93,8 @@ export const Logo = styled.div`
   @media (max-width: 600px) {
 
     img {
-      width: 18rem;
-      height: 18rem;
+      width: 12rem !important;
+      height: 12rem !important;
     }
   }
 `;
