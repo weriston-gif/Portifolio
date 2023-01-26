@@ -48,7 +48,7 @@ export default function Softskill() {
 
     return (
         <>
-            <h1>SKILLS</h1>
+            <h1 className='title-skills'>SKILLS</h1>
             <Ul>
                 <Li>
                     Front-end :
