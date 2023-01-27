@@ -19,7 +19,7 @@ export default function Home() {
               <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
             </Link>
             <Link href="timeline">
-              <LinkProjects>Timeline <FaArrowRight /></LinkProjects>
+              <LinkProjects>TIMELINE <FaArrowRight /></LinkProjects>
             </Link>
 
           </Infos>
