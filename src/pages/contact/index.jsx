@@ -7,13 +7,17 @@ export default function Contact() {
   return (
     <Container>
       <Content>
-        <ItemContact 
-          IconFa={FaLinkedin} 
-          LinkContact="https://www.linkedin.com/in/weriston-carlos-p-alves-960327172/" 
+        <ItemContact
+          IconFa={FaLinkedin}
+          LinkContact="https://www.linkedin.com/in/weriston-carlos-p-alves-960327172/"
         />
-        <ItemContact 
-          IconFa={FaGithub} 
-          LinkContact="https://github.com/weriston-gif" 
+        <ItemContact
+          IconFa={FaGithub}
+          LinkContact="https://github.com/weriston-gif"
+        />
+        <ItemContact
+          IconFa={FaEnvelope}
+          LinkContact="https://weristonalves1@gmail.com"
         />
       </Content>
     </Container>

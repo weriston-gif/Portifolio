@@ -15,10 +15,20 @@ body {
 a, button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: rgb(28, 193, 215);
+}
 
 .image-container{
-  width: 300px !important;
-  height: 300px !important;
   border-radius: 50%;
  
+}
+
+.title-skills {
+  margin: 30px;
+
+}
+.constainer-timeline{
+  width: 90% !important;
 }

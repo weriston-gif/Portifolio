@@ -82,8 +82,8 @@ export const Logo = styled.div`
   justify-content: center;
 
   img {
-    width: 25rem;
-    height: 25rem;
+    width: 80% !important;
+      height: 80% !important;
   }
 
   @media (max-width: 760px) {
@@ -93,8 +93,8 @@ export const Logo = styled.div`
   @media (max-width: 600px) {
 
     img {
-      width: 18rem;
-      height: 18rem;
+      width: 100% !important;
+      height: 100% !important;
     }
   }
 `;
