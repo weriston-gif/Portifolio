@@ -16,11 +16,13 @@ export default function TimeLine() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="2018 - present"
+                        date="2018 - Cursando"
 
                     >
                         <h3 className="vertical-timeline-element-title">Ciência da Computação</h3>
-                        <h4 className="vertical-timeline-element-subtitle">São Paulo, São Paulo, Brasil</h4>
+                        <h4 className="vertical-timeline-element-subtitle">São Paulo, Brasil</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Universidade Paulista - UNIP</h4>
+
                         <p>
                             Inserção no mundo de desenvolvimento aonde tive contato direto com várias informações relacionadas a desenvolvimento e tecnologias
                         </p>
