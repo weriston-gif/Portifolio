@@ -18,6 +18,9 @@ export default function Home() {
             <Link href="projects">
               <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
             </Link>
+            <Link href="timeline">
+              <LinkProjects>TimeLine Profissional <FaArrowRight /></LinkProjects>
+            </Link>
 
           </Infos>
           <Logo>
@@ -25,10 +28,8 @@ export default function Home() {
           </Logo>
         </Content>
       </Container>
-      <Softskill />
-      <Link  href="contact">
-        <LinkProjects>CONTATOS <FaArrowUp /></LinkProjects>
-      </Link>
+      {/* <Softskill /> */}
+
     </>
   )
 }
