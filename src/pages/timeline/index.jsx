@@ -4,7 +4,7 @@ import { ReactComponent as SchoolIcon } from "./school.svg";
 import { ReactComponent as StarIcon } from "./school.svg";
 
 
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 export default function TimeLine() {
