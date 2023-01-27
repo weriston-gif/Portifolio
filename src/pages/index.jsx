@@ -18,9 +18,6 @@ export default function Home() {
             <Link href="projects">
               <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
             </Link>
-            <Link href="timeline">
-              <LinkProjects>TimeLine Profissional <FaArrowRight /></LinkProjects>
-            </Link>
 
           </Infos>
           <Logo>
