@@ -15,6 +15,10 @@ body {
 a, button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: rgb(28, 193, 215);
+}
 
 .image-container{
   border-radius: 50%;
@@ -24,4 +28,7 @@ a, button {
 .title-skills {
   margin: 30px;
 
+}
+.constainer-timeline{
+  width: 90% !important;
 }

@@ -7,9 +7,10 @@ export default function ItemContact({ IconFa, LinkContact }) {
       <Icon>
         <IconFa />
       </Icon>
-      <Text>
+      <a target="_blank" href={LinkContact}
+      >
         {LinkContact}
-      </Text>
+      </a>
     </Item>
   )
 }

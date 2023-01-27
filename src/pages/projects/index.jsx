@@ -15,6 +15,7 @@ export default function Projects() {
         }
         var data = await res.json()
         setItemsApi(data)
+        console.log(data)
       })
       .catch(e => console.log(e))
     }
@@ -31,7 +32,10 @@ export default function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <Url>URL: {item.url}</Url>
+            <Url><a target="_blank" href={item.html_url}>{item.html_url}</a></Url>
+            <div>
+              Descrição: {item.description == null ? "Sem descrição" : item.description}
+            </div>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>
