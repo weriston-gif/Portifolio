@@ -35,12 +35,33 @@ export const Infos = styled.div`
   }
 `;
 
+export const StyledIntro = styled.div`
+  /* Estilos para o componente Intro */
+
+  ul {
+    list-style-type: none; /* Remover o ponto padrão da lista */
+    padding-left: 0; /* Remover o recuo padrão da lista */
+  }
+
+  li {
+    margin-top: 0.5em; /* Aumentar o espaçamento superior entre os itens da lista */
+    margin-bottom: 0.5em; /* Aumentar o espaçamento inferior entre os itens da lista */
+  }
+
+  li:before {
+    content: '>'; /* Utilizar um ponto personalizado como marcador */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Alinhar o marcador à esquerda */
+  }
+`;
+
 export const Name = styled.span`
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
 
   @media (max-width: 760px) {
-    font-size: 25px;
+    font-size: 15px;
   }
 `;
 
