@@ -31,7 +31,7 @@ export const Infos = styled.div`
   display: grid;
 
   @media (max-width: 760px) {
-    width: 90%;
+    width: 80%;
   }
 `;
 
@@ -83,41 +83,42 @@ export const Intro = styled.span`
 `;
 
 export const LinkProjects = styled.button`
-  width: 10rem;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
-  font-weight: bold;
+width: 100%;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 20px;
+font-weight: bold;
 
-  svg {
-    font-size: 20px;
-  }
+svg {
+  font-size: 20px;
+}
+
+@media (max-width: 760px) {
+  font-size: 14px;
+  padding: 8px;
+}
 `;
 
 export const Logo = styled.div`
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* Adicione essa regra para oferecer suporte a navegadores antigos do Internet Explorer */
+  max-height: 400px; /* Defina a altura máxima desejada */
+}
+
+@media (max-width: 760px) {
   img {
-    width: 80% !important;
-      height: 80% !important;
+    max-height: 200px; /* Ajuste a altura máxima para dispositivos móveis */
   }
+}
 
-  @media (max-width: 760px) {
-    width: 90%;
-  }
-
-  @media (max-width: 600px) {
-
-    img {
-      width: 100% !important;
-      height: 100% !important;
-    }
-  }
 `;
 
 export const Img = styled.img``
