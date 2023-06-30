@@ -1,62 +1,97 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/projects";
-exports.ids = ["pages/projects"];
+exports.id = 327;
+exports.ids = [327];
 exports.modules = {
 
-/***/ "./components/style-project.js":
-/*!*************************************!*\
-  !*** ./components/style-project.js ***!
-  \*************************************/
+/***/ 604:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Container\": () => (/* binding */ Container),\n/* harmony export */   \"Content\": () => (/* binding */ Content),\n/* harmony export */   \"Ul\": () => (/* binding */ Ul),\n/* harmony export */   \"Li\": () => (/* binding */ Li),\n/* harmony export */   \"TitleProject\": () => (/* binding */ TitleProject),\n/* harmony export */   \"Url\": () => (/* binding */ Url),\n/* harmony export */   \"Created_at\": () => (/* binding */ Created_at)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Container = styled_components__WEBPACK_IMPORTED_MODULE_0___default().div.withConfig({\n    displayName: \"style-project__Container\",\n    componentId: \"sc-27aa6ff2-0\"\n})`\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: calc(100vh - 100px);\n`;\nconst Content = styled_components__WEBPACK_IMPORTED_MODULE_0___default().div.withConfig({\n    displayName: \"style-project__Content\",\n    componentId: \"sc-27aa6ff2-1\"\n})`\n  width: 1120px;\n  height: 100%;\n  justify-content: center;\n  display: flex;\n  align-items: center;\n  padding: 20px;\n\n  @media (max-width: 600px) {\n    padding: 5px;\n  }\n`;\nconst Ul = styled_components__WEBPACK_IMPORTED_MODULE_0___default().ul.withConfig({\n    displayName: \"style-project__Ul\",\n    componentId: \"sc-27aa6ff2-2\"\n})`\n  overflow-x: auto;\n  height: inherit;\n\n  &::-webkit-scrollbar {\n    width: 12px;\n    border-radius: 10px;\n    background-color: whitesmoke; \n  }\n\n  &::-webkit-scrollbar-thumb {\n    border-radius: 10px;\n    background-color: darkgray; \n  }\n`;\nconst Li = styled_components__WEBPACK_IMPORTED_MODULE_0___default().li.withConfig({\n    displayName: \"style-project__Li\",\n    componentId: \"sc-27aa6ff2-3\"\n})`\n  display: flex;\n  flex-direction: column;\n  text-align: start;\n  word-break: break-word;\n  margin: 10px 10px 20px;\n  box-shadow: 1px 1px 1px 2px gray;\n  gap: 5px;\n  border-radius: 10px;\n  padding: 10px;\n\n  @media (max-width: 760px) {\n   font-size: 13px;\n  }\n`;\nconst TitleProject = styled_components__WEBPACK_IMPORTED_MODULE_0___default().strong.withConfig({\n    displayName: \"style-project__TitleProject\",\n    componentId: \"sc-27aa6ff2-4\"\n})``;\nconst Url = styled_components__WEBPACK_IMPORTED_MODULE_0___default().span.withConfig({\n    displayName: \"style-project__Url\",\n    componentId: \"sc-27aa6ff2-5\"\n})``;\nconst Created_at = styled_components__WEBPACK_IMPORTED_MODULE_0___default().span.withConfig({\n    displayName: \"style-project__Created_at\",\n    componentId: \"sc-27aa6ff2-6\"\n})``;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3N0eWxlLXByb2plY3QuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQXNDO0FBRS9CLEtBQUssQ0FBQ0MsU0FBUyxHQUFHRCx1RUFBVTs7O0dBQUM7Ozs7O0FBS3BDO0FBRU8sS0FBSyxDQUFDRyxPQUFPLEdBQUdILHVFQUFVOzs7R0FBQzs7Ozs7Ozs7Ozs7QUFXbEM7QUFFTyxLQUFLLENBQUNJLEVBQUUsR0FBR0osc0VBQVM7OztHQUFDOzs7Ozs7Ozs7Ozs7OztBQWM1QjtBQUVPLEtBQUssQ0FBQ00sRUFBRSxHQUFHTixzRUFBUzs7O0dBQUM7Ozs7Ozs7Ozs7Ozs7O0FBYzVCO0FBSU8sS0FBSyxDQUFDUSxZQUFZLEdBQUdSLDBFQUFhOzs7O0FBRWxDLEtBQUssQ0FBQ1UsR0FBRyxHQUFHVix3RUFBVzs7OztBQUV2QixLQUFLLENBQUNZLFVBQVUsR0FBR1osd0VBQVciLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zaXRlcGVzc29hbC8uL2NvbXBvbmVudHMvc3R5bGUtcHJvamVjdC5qcz82YjQxIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInN0eWxlZC1jb21wb25lbnRzXCI7XG5cbmV4cG9ydCBjb25zdCBDb250YWluZXIgPSBzdHlsZWQuZGl2YFxuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMTAwcHgpO1xuYDtcblxuZXhwb3J0IGNvbnN0IENvbnRlbnQgPSBzdHlsZWQuZGl2YFxuICB3aWR0aDogMTEyMHB4O1xuICBoZWlnaHQ6IDEwMCU7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAyMHB4O1xuXG4gIEBtZWRpYSAobWF4LXdpZHRoOiA2MDBweCkge1xuICAgIHBhZGRpbmc6IDVweDtcbiAgfVxuYDtcblxuZXhwb3J0IGNvbnN0IFVsID0gc3R5bGVkLnVsYFxuICBvdmVyZmxvdy14OiBhdXRvO1xuICBoZWlnaHQ6IGluaGVyaXQ7XG5cbiAgJjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICAgIHdpZHRoOiAxMnB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTsgXG4gIH1cblxuICAmOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkYXJrZ3JheTsgXG4gIH1cbmA7XG5cbmV4cG9ydCBjb25zdCBMaSA9IHN0eWxlZC5saWBcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgdGV4dC1hbGlnbjogc3RhcnQ7XG4gIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7XG4gIG1hcmdpbjogMTBweCAxMHB4IDIwcHg7XG4gIGJveC1zaGFkb3c6IDFweCAxcHggMXB4IDJweCBncmF5O1xuICBnYXA6IDVweDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgcGFkZGluZzogMTBweDtcblxuICBAbWVkaWEgKG1heC13aWR0aDogNzYwcHgpIHtcbiAgIGZvbnQtc2l6ZTogMTNweDtcbiAgfVxuYDtcblxuXG5cbmV4cG9ydCBjb25zdCBUaXRsZVByb2plY3QgPSBzdHlsZWQuc3Ryb25nYGA7XG5cbmV4cG9ydCBjb25zdCBVcmwgPSBzdHlsZWQuc3BhbmBgO1xuXG5leHBvcnQgY29uc3QgQ3JlYXRlZF9hdCA9IHN0eWxlZC5zcGFuYGA7XG4iXSwibmFtZXMiOlsic3R5bGVkIiwiQ29udGFpbmVyIiwiZGl2IiwiQ29udGVudCIsIlVsIiwidWwiLCJMaSIsImxpIiwiVGl0bGVQcm9qZWN0Iiwic3Ryb25nIiwiVXJsIiwic3BhbiIsIkNyZWF0ZWRfYXQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/style-project.js\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Projects)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_style_project__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(995);
+
+
+
+function Projects() {
+    const { 0: itemsApi , 1: setItemsApi  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        let abortController = new AbortController();
+        function getGitHubAPI() {
+            fetch('https://api.github.com/users/weriston-gif/repos').then(async (res)=>{
+                if (!res.ok) {
+                    throw new Error(res.status);
+                }
+                var data = await res.json();
+                setItemsApi(data);
+                console.log(data);
+            }).catch((e)=>console.log(e)
+            );
+        }
+        getGitHubAPI();
+        return ()=>abortController.abort()
+        ;
+    }, []);
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_style_project__WEBPACK_IMPORTED_MODULE_2__/* .Container */ .W2, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_style_project__WEBPACK_IMPORTED_MODULE_2__/* .Content */ .VY, {
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Ul, {
+                children: itemsApi.map((item)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Li, {
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_style_project__WEBPACK_IMPORTED_MODULE_2__/* .TitleProject */ .c0, {
+                                children: item.name.toUpperCase()
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_style_project__WEBPACK_IMPORTED_MODULE_2__/* .Url */ .R9, {
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    target: "_blank",
+                                    href: item.html_url,
+                                    children: item.html_url
+                                })
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                children: [
+                                    "Descri\xe7\xe3o: ",
+                                    item.description == null ? "Sem descri\xe7\xe3o" : item.description
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__/* .Created_at */ .hu, {
+                                children: [
+                                    "Data Cria\xe7\xe3o: ",
+                                    Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))
+                                ]
+                            })
+                        ]
+                    }, item.id)
+                )
+            })
+        })
+    }));
+};
+
 
 /***/ }),
 
-/***/ "./src/pages/projects/index.jsx":
-/*!**************************************!*\
-  !*** ./src/pages/projects/index.jsx ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Projects)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_style_project__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../components/style-project */ \"./components/style-project.js\");\n\n\n\nfunction Projects() {\n    const { 0: itemsApi , 1: setItemsApi  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        let abortController = new AbortController();\n        function getGitHubAPI() {\n            fetch('https://api.github.com/users/weriston-gif/repos').then(async (res)=>{\n                if (!res.ok) {\n                    throw new Error(res.status);\n                }\n                var data = await res.json();\n                setItemsApi(data);\n                console.log(data);\n            }).catch((e)=>console.log(e)\n            );\n        }\n        getGitHubAPI();\n        return ()=>abortController.abort()\n        ;\n    }, []);\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Container, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Content, {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Ul, {\n                children: itemsApi.map((item)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Li, {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.TitleProject, {\n                                children: item.name.toUpperCase()\n                            }, void 0, false, {\n                                fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                                lineNumber: 34,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Url, {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    target: \"_blank\",\n                                    href: item.html_url,\n                                    children: item.html_url\n                                }, void 0, false, {\n                                    fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                                    lineNumber: 35,\n                                    columnNumber: 18\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                                lineNumber: 35,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: [\n                                    \"Descri\\xe7\\xe3o: \",\n                                    item.description == null ? \"Sem descri\\xe7\\xe3o\" : item.description\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                                lineNumber: 36,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_style_project__WEBPACK_IMPORTED_MODULE_2__.Created_at, {\n                                children: [\n                                    \"Data Cria\\xe7\\xe3o: \",\n                                    Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                                lineNumber: 39,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, item.id, true, {\n                        fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                        lineNumber: 33,\n                        columnNumber: 11\n                    }, this)\n                )\n            }, void 0, false, {\n                fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n                lineNumber: 31,\n                columnNumber: 8\n            }, this)\n        }, void 0, false, {\n            fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n            lineNumber: 30,\n            columnNumber: 6\n        }, this)\n    }, void 0, false, {\n        fileName: \"/home/usuario/www/Portifolio/src/pages/projects/index.jsx\",\n        lineNumber: 29,\n        columnNumber: 5\n    }, this));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvcHJvamVjdHMvaW5kZXguanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBa0Q7QUFDMkQ7QUFFOUYsUUFBUSxDQUFDVSxRQUFRLEdBQUcsQ0FBQztJQUNsQyxLQUFLLE1BQUVDLFFBQVEsTUFBRUMsV0FBVyxNQUFJViwrQ0FBUSxDQUFDLENBQUMsQ0FBQztJQUUzQ0QsZ0RBQVMsS0FBTyxDQUFDO1FBQ2YsR0FBRyxDQUFDWSxlQUFlLEdBQUcsR0FBRyxDQUFDQyxlQUFlO2lCQUVoQ0MsWUFBWSxHQUFHLENBQUM7WUFDdkJDLEtBQUssQ0FBQyxDQUFpRCxrREFDdERDLElBQUksUUFBT0MsR0FBRyxHQUFJLENBQUM7Z0JBQ2xCLEVBQUUsR0FBR0EsR0FBRyxDQUFDQyxFQUFFLEVBQUUsQ0FBQztvQkFDWixLQUFLLENBQUMsR0FBRyxDQUFDQyxLQUFLLENBQUNGLEdBQUcsQ0FBQ0csTUFBTTtnQkFDNUIsQ0FBQztnQkFDRCxHQUFHLENBQUNDLElBQUksR0FBRyxLQUFLLENBQUNKLEdBQUcsQ0FBQ0ssSUFBSTtnQkFDekJYLFdBQVcsQ0FBQ1UsSUFBSTtnQkFDaEJFLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDSCxJQUFJO1lBQ2xCLENBQUMsRUFDQUksS0FBSyxFQUFDQyxDQUFDLEdBQUlILE9BQU8sQ0FBQ0MsR0FBRyxDQUFDRSxDQUFDOztRQUMzQixDQUFDO1FBRURaLFlBQVk7UUFFWixNQUFNLEtBQU9GLGVBQWUsQ0FBQ2UsS0FBSzs7SUFDcEMsQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUVMLE1BQU0sNkVBQ0h6QixnRUFBUzs4RkFDUkMsOERBQU87a0dBQ0xDLHlEQUFFOzBCQUNETSxRQUFRLENBQUNrQixHQUFHLEVBQUNDLElBQUksK0VBQ2Z4Qix5REFBRTs7d0dBQ0FDLG1FQUFZOzBDQUFFdUIsSUFBSSxDQUFDQyxJQUFJLENBQUNDLFdBQVc7Ozs7Ozt3R0FDbkN4QiwwREFBRztzSEFBRXlCLENBQUM7b0NBQUNDLE1BQU0sRUFBQyxDQUFRO29DQUFDQyxJQUFJLEVBQUVMLElBQUksQ0FBQ00sUUFBUTs4Q0FBR04sSUFBSSxDQUFDTSxRQUFROzs7Ozs7Ozs7Ozt3R0FDMURDLENBQUc7O29DQUFDLENBQ1E7b0NBQUdQLElBQUksQ0FBQ1EsV0FBVyxJQUFJLElBQUksR0FBRyxDQUFlLHVCQUFLUixJQUFJLENBQUNRLFdBQVc7Ozs7Ozs7d0dBRTFFN0IsaUVBQU07O29DQUFDLENBQWM7b0NBQUU4QixJQUFJLENBQUNDLGNBQWMsQ0FBQyxDQUFPLFFBQ3BEQyxNQUFNLENBQUMsR0FBRyxDQUFDQyxJQUFJLENBQUNaLElBQUksQ0FBQ2EsVUFBVTs7Ozs7Ozs7dUJBUDNCYixJQUFJLENBQUNjLEVBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQWUxQixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc2l0ZXBlc3NvYWwvLi9zcmMvcGFnZXMvcHJvamVjdHMvaW5kZXguanN4PzNhMGMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCdcbmltcG9ydCB7IENvbnRhaW5lciwgQ29udGVudCwgVWwsIExpLCBUaXRsZVByb2plY3QsIFVybCwgQ3JlYXRlZF9hdCB9IGZyb20gJy4uLy4uLy4uL2NvbXBvbmVudHMvc3R5bGUtcHJvamVjdCdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvamVjdHMoKSB7XG4gIGNvbnN0IFtpdGVtc0FwaSwgc2V0SXRlbXNBcGldID0gdXNlU3RhdGUoW10pXG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICBsZXQgYWJvcnRDb250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpOyBcblxuICAgIGZ1bmN0aW9uIGdldEdpdEh1YkFQSSgpIHtcbiAgICAgIGZldGNoKCdodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL3dlcmlzdG9uLWdpZi9yZXBvcycpXG4gICAgICAudGhlbihhc3luYyByZXMgPT4ge1xuICAgICAgICBpZiAoIXJlcy5vaykge1xuICAgICAgICAgIHRocm93IG5ldyBFcnJvcihyZXMuc3RhdHVzKVxuICAgICAgICB9XG4gICAgICAgIHZhciBkYXRhID0gYXdhaXQgcmVzLmpzb24oKVxuICAgICAgICBzZXRJdGVtc0FwaShkYXRhKVxuICAgICAgICBjb25zb2xlLmxvZyhkYXRhKVxuICAgICAgfSlcbiAgICAgIC5jYXRjaChlID0+IGNvbnNvbGUubG9nKGUpKVxuICAgIH1cblxuICAgIGdldEdpdEh1YkFQSSgpXG5cbiAgICByZXR1cm4gKCkgPT4gYWJvcnRDb250cm9sbGVyLmFib3J0KCk7ICBcbiAgfSwgW10pXG5cbiAgcmV0dXJuIChcbiAgICA8Q29udGFpbmVyPlxuICAgICA8Q29udGVudD5cbiAgICAgICA8VWw+XG4gICAgICAgIHtpdGVtc0FwaS5tYXAoaXRlbSA9PiAoXG4gICAgICAgICAgPExpIGtleT17aXRlbS5pZH0+XG4gICAgICAgICAgICA8VGl0bGVQcm9qZWN0PntpdGVtLm5hbWUudG9VcHBlckNhc2UoKX08L1RpdGxlUHJvamVjdD5cbiAgICAgICAgICAgIDxVcmw+PGEgdGFyZ2V0PVwiX2JsYW5rXCIgaHJlZj17aXRlbS5odG1sX3VybH0+e2l0ZW0uaHRtbF91cmx9PC9hPjwvVXJsPlxuICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgRGVzY3Jpw6fDo286IHtpdGVtLmRlc2NyaXB0aW9uID09IG51bGwgPyBcIlNlbSBkZXNjcmnDp8Ojb1wiIDogaXRlbS5kZXNjcmlwdGlvbn1cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPENyZWF0ZWRfYXQ+RGF0YSBDcmlhw6fDo286IHsgSW50bC5EYXRlVGltZUZvcm1hdCgncHQtQlInKVxuICAgICAgICAgICAgICAuZm9ybWF0KG5ldyBEYXRlKGl0ZW0uY3JlYXRlZF9hdCkpfVxuICAgICAgICAgICAgPC9DcmVhdGVkX2F0PlxuICAgICAgICAgIDwvTGk+XG4gICAgICAgICkpfVxuICAgICAgIDwvVWw+XG4gICAgIDwvQ29udGVudD5cbiAgIDwvQ29udGFpbmVyPlxuICApXG59Il0sIm5hbWVzIjpbIlJlYWN0IiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJDb250YWluZXIiLCJDb250ZW50IiwiVWwiLCJMaSIsIlRpdGxlUHJvamVjdCIsIlVybCIsIkNyZWF0ZWRfYXQiLCJQcm9qZWN0cyIsIml0ZW1zQXBpIiwic2V0SXRlbXNBcGkiLCJhYm9ydENvbnRyb2xsZXIiLCJBYm9ydENvbnRyb2xsZXIiLCJnZXRHaXRIdWJBUEkiLCJmZXRjaCIsInRoZW4iLCJyZXMiLCJvayIsIkVycm9yIiwic3RhdHVzIiwiZGF0YSIsImpzb24iLCJjb25zb2xlIiwibG9nIiwiY2F0Y2giLCJlIiwiYWJvcnQiLCJtYXAiLCJpdGVtIiwibmFtZSIsInRvVXBwZXJDYXNlIiwiYSIsInRhcmdldCIsImhyZWYiLCJodG1sX3VybCIsImRpdiIsImRlc2NyaXB0aW9uIiwiSW50bCIsIkRhdGVUaW1lRm9ybWF0IiwiZm9ybWF0IiwiRGF0ZSIsImNyZWF0ZWRfYXQiLCJpZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/projects/index.jsx\n");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "styled-components":
-/*!************************************!*\
-  !*** external "styled-components" ***!
-  \************************************/
+/***/ 518:
 /***/ ((module) => {
 
 module.exports = require("styled-components");
@@ -70,7 +105,7 @@ module.exports = require("styled-components");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./src/pages/projects/index.jsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [995], () => (__webpack_exec__(604)));
 module.exports = __webpack_exports__;
 
 })();
