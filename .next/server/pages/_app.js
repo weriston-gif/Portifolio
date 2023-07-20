@@ -160,7 +160,7 @@ function Header() {
                             children: "Weriston Carlos"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(SubTitle, {
-                            children: "Portfolio Pessoal"
+                            children: "Portfolio Profissional"
                         })
                     ]
                 }),
@@ -223,10 +223,16 @@ function Header() {
 function MyApp({ Component , pageProps  }) {
     return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
-                children: /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                    children: "Weris | Dev"
-                })
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "Weris | Dev"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "icon",
+                        href: "/images/computer.png"
+                    })
+                ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {

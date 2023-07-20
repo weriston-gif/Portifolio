@@ -22,7 +22,7 @@ export default function Header() {
             Weriston Carlos
           </Title>
           <SubTitle>
-            Portfolio Pessoal
+            Portfolio Profissional
           </SubTitle>
         </ContentTitle>
         <Menu>

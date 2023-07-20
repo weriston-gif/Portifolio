@@ -7,8 +7,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Weris | Dev</title>
-       </Head>
-       <Header />
+        <link rel="icon" href="/images/computer.png" />
+      </Head>
+      <Header />
       <Component {...pageProps} />
     </>
   )

@@ -102,23 +102,23 @@ svg {
 `;
 
 export const Logo = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* Adicione essa regra para oferecer suporte a navegadores antigos do Internet Explorer */
-  max-height: 400px; /* Defina a altura máxima desejada */
-}
-
-@media (max-width: 760px) {
+  /* Aplique os estilos diretamente na imagem dentro do componente */
   img {
-    max-height: 200px; /* Ajuste a altura máxima para dispositivos móveis */
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* Adicione essa regra para oferecer suporte a navegadores antigos do Internet Explorer */
+    max-height: 400px; /* Defina a altura máxima desejada */
   }
-}
 
+  @media (max-width: 760px) {
+    img {
+      max-height: 200px; /* Ajuste a altura máxima para dispositivos móveis */
+    }
+  }
 `;
 
 export const Img = styled.img``

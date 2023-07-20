@@ -24,11 +24,15 @@ a {
   border-radius: 50%;
  
 }
+@media (max-width: 760px) {
+  .image-container {
+    max-height: 100px; /* Ajuste a altura máxima para dispositivos móveis */
+    max-height: 100px; /* Ajuste a altura máxima para dispositivos móveis */
+
+  }
+}
 
 .title-skills {
   margin: 30px;
 
-}
-.constainer-timeline{
-  width: 90% !important;
 }
