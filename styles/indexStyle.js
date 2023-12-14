@@ -4,15 +4,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+  margim-bottom: 10%;
 `;
 
 export const Content = styled.div`
-  width: 1120px;
   height: 100%;
   justify-content: space-around;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px;
 
   @media (max-width: 600px) {
