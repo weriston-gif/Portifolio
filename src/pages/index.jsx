@@ -13,14 +13,26 @@ import {
 } from "../../styles/indexStyle";
 import Link from "next/link";
 import Softskill from "../../components/Softskill";
+import { useEffect, useState } from "react";
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simula um carregamento assíncrono
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+    
+  }, []);
   return (
     <>
-      <Container>
-        <Content>
+      <div className="container p-3">
+        <div className="flex justify-between items-start m-auto">
           <Infos>
-            <Name>Desenvolvedor Web Full Stack | PHP | JavaScript | BDD</Name>
+            <h1 className="font-bold text-3xl">Desenvolvedor Web Full Stack</h1>
             <Intro>
               <p>
                 Desenvolvedor Web Full Stack desde 2019, com ênfase em PHP e
@@ -29,7 +41,7 @@ export default function Home() {
                 tecnologias AWS.
               </p>
               <br />
-              <h3>Principais competências:</h3>
+              <h3 className="font-semibold">Principais competências:</h3>
               <StyledIntro>
                 <ul>
                   <li>
@@ -63,26 +75,39 @@ export default function Home() {
               </StyledIntro>
             </Intro>
 
-            <Link href="projects">
-              <LinkProjects>
+            <a
+              className="rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-400 duration-300"
+              href="projects"
+            >
+              <p className="flex items-center justify-between p-4 text-white">
                 PROJETOS <FaArrowRight />
-              </LinkProjects>
-            </Link>
-            <Link href="timeline">
-              <LinkProjects>
+              </p>
+            </a>
+            <a
+              className="rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-400 duration-300"
+              href="timeline"
+            >
+              <p className="flex items-center justify-between p-4 text-white">
                 TimeLine Profissional <FaArrowRight />
-              </LinkProjects>
-            </Link>
+              </p>
+            </a>
           </Infos>
-          <Logo>
+          <div
+            className={`flex justify-center items-center ${
+              loading
+                ? "transition-transform ease-in-out duration-1000 delay-1000	 transform translate-x-full"
+                : ""
+            }`}
+          >
+            {" "}
             <Img
-              className="image-container"
+              className="image-container transition duration-700 ease-in-out transform hover:scale-110"
               src="https://avatars.githubusercontent.com/u/64429216?v=4"
               alt="logo"
             />
-          </Logo>
-        </Content>
-      </Container>
+          </div>
+        </div>
+      </div>
       {/* <Softskill /> */}
     </>
   );
