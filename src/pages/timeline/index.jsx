@@ -12,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 export default function TimeLine() {
   return (
     <>
-      <div className="constainer-timeline">
+      <div className="constainer-timeline relative">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -120,8 +120,8 @@ export default function TimeLine() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Atual"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "#fff", color: "rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "7px solid  #fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Desenvolvedor da web
@@ -133,7 +133,7 @@ export default function TimeLine() {
               Guarulhos, São Paulo, Brasil
             </h4>
             <p>
-              Profissional Full Stack Pleno com expertise em diversas
+              Profissional Full Stack com expertise em diversas
               tecnologias para desenvolvimento web. Possuo conhecimento avançado
               em PHP, com experiência nas versões 7.4 e 8.1, e especialização no
               framework Laravel, versões 10 e 8. Minha habilidade em PHP se

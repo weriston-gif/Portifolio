@@ -18,6 +18,10 @@ export const Content = styled.div`
 
 export const Title = styled.div`
   font-size: 30px;
+  @media (min-width: 560px) {
+    font-size: 10px;
+
+  }
 `;
 
 export const NavLinks = styled.nav`
@@ -87,6 +91,9 @@ export const CloseSidebar = styled.div`
 
 export const ContentTitle = styled.div`
   text-align: end;
+  @media (max-width: 640px) {
+    text-align: center;
+  }
 `;
 
 export const SubTitle = styled.span``;

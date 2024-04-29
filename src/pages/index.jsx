@@ -14,7 +14,7 @@ import {
 import Link from "next/link";
 import Softskill from "../../components/Softskill";
 import { useEffect, useState } from "react";
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>;
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -25,12 +25,11 @@ export default function Home() {
       setLoading(false);
     }, 1000);
     return () => clearTimeout(timer);
-    
   }, []);
   return (
     <>
       <div className="container p-3">
-        <div className="flex justify-between items-start m-auto">
+        <div className="block lg:flex justify-between items-start m-auto">
           <Infos>
             <h1 className="font-bold text-3xl">Desenvolvedor Web Full Stack</h1>
             <Intro>
@@ -93,11 +92,7 @@ export default function Home() {
             </a>
           </Infos>
           <div
-            className={`flex justify-center items-center ${
-              loading
-                ? "transition-transform ease-in-out duration-1000 delay-1000	 transform translate-x-full"
-                : ""
-            }`}
+            className={`hidden sm:block lg:flex justify-center items-center`}
           >
             {" "}
             <Img
